@@ -175,12 +175,20 @@
 
 @media (max-width: 780px) {
 
+    .playerContainer {
+        position: fixed;
+        bottom: 15px;
+
+        right: 10px;
+    }
+
+
     .buttons img {
         cursor: pointer;
 
         margin: 5px;
 
-        height: 25px;
+        height: 35px;
 
     }
 
@@ -189,7 +197,7 @@
     }
 
     .timeBar {
-        width: 25vw;
+        width: 45vw;
 
     }
 
